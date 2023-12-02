@@ -3,6 +3,10 @@
     justify-content: space-between;
     align-items: center;
     column-gap: 30px; // отступ "безопасности"
+
+    a {
+        color: var(--text-color);
+    }
 }
 
 .nav__logo {
