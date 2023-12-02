@@ -6,10 +6,6 @@
     background-image: url(./../img/slider-bg/01.jpg);
 }
 
-.header a {
-    color: var( --text-color);
-}
-
 .header__content {
     position: absolute;
     z-index: 9;
@@ -63,11 +59,6 @@
     position: absolute;
     left: 0;
     bottom: 0;
-
-    background-color: greenyellow;
-    height: 120px;
-    width: 20px;
-
 }
 
 .header__slider-controls {
