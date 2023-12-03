@@ -101,4 +101,19 @@
 }
 
 .slide__locations {
+    margin: 0 auto;
+    width: 70%;
+
+    display: flex;
+    column-gap: 30px;
+
+    @media (max-width: 1023px) {
+        width: 90%;
+    }
+
+    @media (max-width: 767px) {
+        width: 90%;
+        flex-direction: column;
+        row-gap: 20px;
+    }
 }
