@@ -23,11 +23,11 @@
 
     background-color: #555;
     // background-image: url(./../img/slider-bg/01.jpg);
+    background: var( --radial-bg), var(--linear-bg), url('./../img/slider-bg/01.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 
-    background: var( --radial-bg), var(--linear-bg), url('./../img/slider-bg/01.jpg');
 
     color: #fff;
         
