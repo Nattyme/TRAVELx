@@ -70,13 +70,16 @@
 
 .header__scrollbar {
     pointer-events: all;
-
+    
     position: absolute;
     right: 0;
-    top: 50%;
-    transform: translate(0, -50%);
+    top: 45%;
 
-    background-color: aquamarine;
-    height: 326px;
-    width: 2px;
+    width: 400px;
+    height: 10px;
+    // background-color: red;
+
+    transform-origin: right top;
+    transform: rotate(90deg) translate(50%, 0%);
+
 }
