@@ -1,3 +1,9 @@
-import mobileNav from './modules/mobile-nav.js';
+// import mobileNav from './modules/mobile-nav.js';
 
-mobileNav();
+// mobileNav();
+
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
+
+// init Swiper:
+const swiper = new Swiper({});
